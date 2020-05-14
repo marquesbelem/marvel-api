@@ -1,0 +1,17 @@
+header#main-header {
+    height: 60px;
+    background-color: #f3d430;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid 2px;
+}
+
+a { 
+    text-decoration: none;
+    color: #643c27;
+    padding: 5px;
+}
