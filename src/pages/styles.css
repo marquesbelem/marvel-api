@@ -1,0 +1,30 @@
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    color: #ffffff;
+    justify-content: center;    
+}
+.item {
+    background-color: #7c0808;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 9px 5px 6px -6px black;
+    transition:  1s;
+    padding: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 150px;
+}
+
+.item:hover{
+    padding: 100px;
+   /* margin: 20px;*/
+    box-shadow: 16px 15px 6px -6px #b7a2a2;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 150px;
+}
+
